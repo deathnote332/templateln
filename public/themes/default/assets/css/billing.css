@@ -164,14 +164,18 @@ span.selected-sales-person {
 .box-service {
     width: 12vw;
     height: 12vh;
-    border: 2px solid #ffb38c;
-    text-align: center;
+    text-align: left;
     padding-top: 17px;
-    background: rgba(255, 0, 0, 0.13);
+    background: #489ee7;
+    padding-left: 14px;
     cursor: pointer;
+    color: white;
 }
 .container-grid ul, .container-grid li {
     list-style: none;
     padding: 0;
     display: inline-block;
+}
+.container-grid {
+    text-align: center;
 }
