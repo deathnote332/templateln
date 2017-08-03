@@ -1,0 +1,177 @@
+
+table.table.invoice-total {
+    width: 50%;
+    margin: 1px 1px 1px auto;
+}
+.tbl-container-details {
+    text-align: right;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+}
+.invoice-total > tbody > tr > td:last-child {
+    border-bottom: 1px solid #DDDDDD;
+    text-align: right;
+    /* width: 15%; */
+}
+.invoice-total > tbody > tr > td {
+    border: 0 none;
+}
+span.selected-sales-person {
+    float: right;
+}
+
+.list-group-item {
+    border: 0px solid #ddd;
+}
+
+.amount-block {
+    height: 70px;
+    border-top: 1px dashed #D0D3D8;
+    border-bottom: 1px dashed #D0D3D8;
+}
+
+.amount-block .total:nth-child(1) {
+    border-right: 1px dashed #D0D3D8;
+}
+
+.amount-block .total {
+    padding: 10px;
+    padding-top: 5px;
+    display: inline-block;
+    width: 49%;
+    height: 68px;
+}
+.amount-block .total .side-heading {
+    padding-left: 5px;
+    color: #67676C;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.side-heading {
+    padding-left: 5px;
+    color: #67676C;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.amount-block .total .amount {
+    text-align: center;
+    color: #6FD64B;
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.amount-block .total.amount-due .amount {
+    color: #ff9e28;
+}
+
+.amount-block .total .amount {
+    text-align: center;
+    color: #6FD64B;
+    font-size: 22px;
+    font-weight: 400;
+}
+.add-coupon {
+    padding: 15px;
+    padding-top: 5px;
+    border-bottom: 1px dashed #D0D3D8;
+}
+
+.customer-badge {
+    padding: 7px 30px;
+    border-bottom: 1px solid #E9ECF2;
+    min-height: 80px;
+    background-color: #FFFFFF;
+}
+
+.customer-badge {
+    padding: 7px 30px;
+    border-bottom: 1px solid #E9ECF2;
+    background-color: #FFFFFF;
+}
+
+.register .register-right .customer-badge .avatar {
+    float: left;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.text-success {
+    color: #a0d269;
+}
+
+.customer-badge .avatar {
+    float: left;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+}
+
+.customer-badge .avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.customer-badge .avatar img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.customer-badge .details {
+    padding: 0px;
+    padding-left: 72px;
+    text-align: left;
+    padding-top: 10px;
+    position: relative;
+}
+
+.customer-badge .details {
+    padding: 0px;
+    padding-left: 72px;
+    text-align: left;
+    padding-top: 10px;
+    position: relative;
+}
+.remove-customer {
+    position: absolute;
+    right: 11px;
+    top: 2px;
+    color: red;
+    font-size: 17px;
+}
+.comp-btn{
+    height: 39px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border-color: #6FD64B;
+    box-shadow: none;
+    color: #6FD64B;
+    background-color: #F2FFED;
+    font-size: 16px;
+    font-weight: 300;
+}
+.inpt-comp-btn{
+    margin:auto;
+    position: relative;
+    top:5px
+}
+.box-service {
+    width: 12vw;
+    height: 12vh;
+    border: 2px solid #ffb38c;
+    text-align: center;
+    padding-top: 17px;
+    background: rgba(255, 0, 0, 0.13);
+    cursor: pointer;
+}
+.container-grid ul, .container-grid li {
+    list-style: none;
+    padding: 0;
+    display: inline-block;
+}

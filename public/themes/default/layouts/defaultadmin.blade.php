@@ -12,7 +12,7 @@
 </head>
 <body>
 
-
+<input type="hidden" id="baseURL" value="{{ url('') }}" >
 {!! Theme::partial('sidebar') !!}
 
 {!! Theme::asset()->container('footer')->scripts() !!}

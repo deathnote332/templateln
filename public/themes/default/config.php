@@ -93,9 +93,11 @@ return array(
 
             'defaultadmin' => function($theme)
             {
-                // $theme->asset()->usePath()->add('ipad', 'css/layouts/ipad.css');
+                $theme->asset()->usePath()->add('jquery.form-validator.min-js', 'js/components/jquery.form-validator.min.js');
+                $theme->asset()->usePath()->add('jquery-steps-css', 'css/components/jquery.steps.css');
                 $theme->asset()->usePath()->add('global-admin-css', 'css/global-admin.css');
                 $theme->asset()->usePath()->add('sbadmin-css', 'css/components/sbadmin.css');
+                $theme->asset()->usePath()->add('jquery-steps.min-js', 'js/components/jquery.steps.min.js');
 
             }
 
